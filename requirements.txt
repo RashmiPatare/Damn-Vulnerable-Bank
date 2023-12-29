@@ -3,3 +3,5 @@ mkdocs-material==8.5.10
 mkdocs-git-revision-date-localized-plugin==1.1.0
 mkdocs-minify-plugin==0.6.1
 mkdocs-exclude==1.0.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
